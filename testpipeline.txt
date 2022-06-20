@@ -1,0 +1,14 @@
+pipeline
+{
+agent any ===this will take master machine===
+stages 
+{
+  stage('stage1')
+{
+ steps
+{
+ echo 'First Stage"
+}
+}
+}
+}
